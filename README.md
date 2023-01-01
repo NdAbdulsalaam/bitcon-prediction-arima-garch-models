@@ -62,7 +62,7 @@ We can reasonably conclude that our time series is not stationary because our da
 - Detrending
 - Differencing
 
-![Los transformation mean and standard deviation](results\logscale_rollingmean&STD.png)
+![Log transformation mean and standard deviation](results\logscale_rollingmean&STD.png)
 
 
 | Dickey Fuller Test:  |            |
