@@ -1,5 +1,5 @@
 # Time Series Analysis
-
+<img alt="Time Series Cover Image" src="results/cover-image.jpeg" width = 1600>
 
 ## Overview
 For this project, I used Bitcoin's daily closing market price dataset from Jan 2012 to March 2021 (the dataset can be found on [kaggle](https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data). The main objective of this work includes the following:
