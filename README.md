@@ -34,7 +34,8 @@ There is a need to make the time series stationary to use ARIMA. And as briefly 
 - **d:** The number of differencing required to make the time serie stationary
 
 I won't go into exhaustive detail. However, the core ideas for finding these parameters will be outlined.
-<img alt="Raw rolling mean and standard deviation" src='results\raw_rollingmean&STD.png">
+
+<img alt="Raw rolling mean and standard deviation" src='results/raw_rollingmean&STD.png">
 
 The plot above demonstrates that, despite the rolling standard deviation being largely steady over time, the rolling mean has a trend component. Our rolling statistics, such as mean and standard deviation, must be constant over time for our time series to be stationary. As a result, both curves must be parallel to the x-axis, which is not the case in our example.
 
@@ -61,7 +62,7 @@ We can reasonably conclude that our time series is not stationary because our da
 - Detrending
 - Differencing
 
-![Log transformation mean and standard deviation](results\logscale_rollingmean&STD.png)
+![Log transformation mean and standard deviation](results/logscale_rollingmean&STD.png)
 
 
 | Dickey Fuller Test:  |            |
@@ -83,7 +84,7 @@ We can reasonably conclude that our time series is not stationary because our da
 > Other transformation like exponential decomposition can also be done to increase accuracy
 
 
-![Seasonal decomposition mean and standard deviation](results\seasonal_decomposition_rollingmean&STD.png)
+![Seasonal decomposition mean and standard deviation](results/seasonal_decomposition_rollingmean&STD.png)
 
 | Dickey Fuller Test:  |            |
 |----------------------|------------|
