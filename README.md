@@ -35,7 +35,7 @@ There is a need to make the time series stationary to use ARIMA. And as briefly 
 
 I won't go into exhaustive detail. However, the core ideas for finding these parameters will be outlined.
 
-<img alt="Raw rolling mean and standard deviation" src='results/raw_rollingmean&STD.png">
+[Raw rolling mean and standard deviation](results/raw_rollingmean&STD.png)
 
 The plot above demonstrates that, despite the rolling standard deviation being largely steady over time, the rolling mean has a trend component. Our rolling statistics, such as mean and standard deviation, must be constant over time for our time series to be stationary. As a result, both curves must be parallel to the x-axis, which is not the case in our example.
 
